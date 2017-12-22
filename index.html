@@ -1,464 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <title>Janani Chinnam</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
-    <!-- Theme CSS -->
-    <link href="css/agency.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/resume.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
-    <![endif]-->
+  </head>
 
-</head>
+  <body id="page-top">
 
-<body id="page-top" class="index">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
 
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Janani Chinnam</a>
-            </div>
+      <!-- particles.js container -->
+      <div id="particles-js"></div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#resume">Resume</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
+      <!-- scripts -->
+      <script src="js/particles.js"></script>
+      <script src="js/particles-config.js"></script>
+
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none"></span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <img class="img-circle" src="img/headshot.jpeg" align = "middle" width="200" height="200">
-                <div class="intro-heading">Janani Chinnam</div>
-                <div class="intro-lead-in">Computer Science, B.S.E. <br>The University of Michigan - Ann Arbor</div>
-                <a href="#about" class="page-scroll btn btn-xl">More</a>
-            </div>
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Janani
+            <span class="text-primary">Chinnam</span>
+          </h1>
+          <div class="subheading mb-5">248.990.6329 ·
+            <a href="mailto:jchinnam@umich.edu">jchinnam@umich.edu</a>
+          </div>
+          <p class="mb-5">I'm a junior studying Computer Science in the College of Engineering at the University of Michigan in Ann Arbor. My interests range from back-end development to web design, and I'm looking for valuable experiences and opportunities to broaden my scope and refine my technical skills. <a href="doc/cv.pdf">// my resume</a></p>
+
+          <ul class="list-inline list-social-icons mb-0">
+            <!-- <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li> -->
+            <!-- <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li> -->
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/jananichinnam/">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/jchinnam">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
         </div>
-    </header>
+      </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About Me</h2>
-                    <h3 class="section-subheading text-muted">creativity, experience, perspective</h3>
-                    <p class="text-faded">I'm a junior studying Computer Science in the College of Engineering at the University of Michigan in Ann Arbor. My interests range from back-end development to web design, and I'm looking for valuable experiences and opportunities to broaden my scope and refine my technical skills.</p>
-                </div>
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
 
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Software Engineering Intern</h3>
+              <div class="subheading mb-3">Cleo</div>
+              <p>Designed and automated log aggregation and visualization pipeline for troubleshooting and performance optimization in production system environments. Implemented build-stage testing suite to strengthen code coverage by running on new branch commits. Developed user activity interface to display live visuals of application activity with dynamic features to enhance client experience in production, leveraging REST protocol and AWS APIs.</p>
             </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May - Oct 2017</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Software Development Intern</h3>
+              <div class="subheading mb-3">AgileSystems</div>
+              <p>Built user interface for forecasting toolkit to predict warranty claims based on 20+ environmental variables and historical data patterns and statistics, targeting specific vehicle usage subsets and parameters. Implemented MATLAB scripts to aggregate vehicle data and calculate overall statistics distributed by winter severity, focusing on locations of interest and various prediction scenarios.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Apr - June 2016</span>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Projects</h2>
-                    <h3 class="section-subheading text-muted">Check out what I've done!</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/icons/3.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Path Finder</h4>
-                        <p class="text-muted">C++</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/icons/1.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Log Archive Manager</h4>
-                        <p class="text-muted">C++</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/icons/2.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Cryptographic Attacks</h4>
-                        <p class="text-muted">Python</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/icons/5.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Phi Gamma Nu</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/icons/6.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Pipeline Simulator</h4>
-                        <p class="text-muted">C</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/icons/4.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Content-Aware Resizing</h4>
-                        <p class="text-muted">C++</p>
-                    </div>
-                </div>
-            </div>
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+          <div class="subheading mb-3">Proficient</div>
+          <p>C++, Java, Python</p>
+          <div class="subheading mb-3">Familiar</div>
+          <p>C, MATLAB, JavaScript, Groovy</p>
+
+          <div class="subheading mb-3">And More</div>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicons-git"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-html5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-css3"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-nodejs"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-react"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-angular"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-bootstrap"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-jenkins"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-aws"></i>
+            </li>
+          </ul>
         </div>
-    </section>
+      </section>
 
-    <!-- Resume Section -->
-    <section id="resume" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Resume</h2>
-                    <h3 class="section-subheading text-muted">Me, but on paper.</h3>
-                </div>
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
+        <div class="my-auto">
+          <h2 class="mb-5">Projects</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Node.js Security Check</h3>
+              <div class="subheading mb-3">Groovy</div>
+              <p> A cron-like script to continuously check Node.js package dependencies for known security vulnerabilities with an integrated Slack notification system determined by priority levels using npm nsp, Docker, and shell code.</p>
             </div>
-            <div class="row">
-                  <iframe src="https://umich.app.box.com/embed/s/48ynygguqk0v6cq90zx95x7spondqai4" width="100%" height="600" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe> 
+          </div>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Phi Gamma Nu Internal System</h3>
+              <div class="subheading mb-3">HTML, CSS, JS</div>
+              <p> An internal web system consisting of fraternity recruitment scoring automation and internal voting to streamline procedures. Public site and authenticated internal logistical pages for file sharing, organization, and member information.</p>
             </div>
+          </div>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Path Finder</h3>
+              <div class="subheading mb-3">C++</div>
+              <p>A MST and TSP Path Finding Simulator that systematically designs an optimal path between nodes; utilizes bounding algorithms and various heuristic approaches to optimize the solution in both speed and memory. Designed to simulate zoo tours with various constraints.</p>
+            </div>
+          </div>
+
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Let's Get in Touch!</h2>
-                    <h3 class="section-subheading text-muted">Be a part of my journey.</h3>
-                </div>
-            </div>
-            
-            <div class="col-md-3 col-sm-6 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>248.990.6329</p>
-                </div>
-            <div class="col-md-3 col-sm-6 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:jchinnam@umich.edu">jchinnam@umich.edu</a></p>
-                </div>
-            <div class="col-md-3 col-sm-6 text-center">
-                    <i class="fa fa-linkedin fa-3x sr-contact"></i>
-                        <p><a href="https://www.linkedin.com/in/jananichinnam">linkedin.com/jananichinnam</a></p>
-                </div>
-            <div class="col-md-3 col-sm-6 text-center">
-                    <i class="fa fa-github fa-3x sr-contact"></i>
-                        <p><a href="https://github.com/jchinnam">github.com/jchinnam</a></p>
-                </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Janani Chinnam 2017</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Path Finder</h2>
-                                <p class="item-intro text-muted">MST and TSP Path Finding Simulator</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/zoo.png" alt="">
-                                <p>Systematically designs an optimal path between nodes; utilizes bounding algorithms and various heuristic approaches to optimize the solution in both speed and memory. Designed to simulate zoo tours with various constraints.</p>
-                                <ul class="list-inline">
-                                    <li>Date: Dec 2016</li>
-                                    <li>Language: C++</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </section>
     </div>
 
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Log Manager</h2>
-                                <p class="item-intro text-muted">Log Entry Archive Manager</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/icons/1.png" alt="">
-                                <p>Implements unordered maps to design an interactive log file software system that can be searched and edited using various excerpt, display, and sort commands.</p>
-                                <ul class="list-inline">
-                                    <li>Date: Nov 2016</li>
-                                    <li>Language: C++</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Cryptographic Attacks</h2>
-                                <p class="item-intro text-muted">Series of Cryptographic Attack implementations</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/icons/2.png" alt="">
-                                <p>Conducted length extension attacks, computed MD5 collisions, conducted a hash collision attack, and RSA signature forgery through an implementation of Bleichenbacher’s Attack on dummy sites.</p>
-                                <ul class="list-inline">
-                                    <li>Date: Jan 2017</li>
-                                    <li>Language: Python</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Phi Gamma Nu</h2>
-                                <p class="item-intro text-muted">Delta Phi Chapter Website</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/pgn_preview.png" alt="">
-                                <p>Built and maintains <a href="pgndeltaphi.com">pgndeltaphi.com</a>, developed using HTML, CSS, and JavaScript.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Pipeline Simulator</h2>
-                                <p class="item-intro text-muted">Behavioral pipeline simulation</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/pipeline.png" alt="">
-                                <p>A cycle-accurate behavioral simulator for a pipelined implementation of a basic computer, complete with data forwarding and simple branch prediction.</p>
-                                <ul class="list-inline">
-                                    <li>Date: Nov 2016</li>
-                                    <li>Language: C</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Content-Aware Resizing</h2>
-                                <p class="item-intro text-muted">Pixel Seam-Carving Image Resizing</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/icons/4.png" alt="">
-                                <p>Resizes images by changing the aspect ratio without distorting the image through a seam- carving algorithm that finds and removes image “seams” that pass through the least important pixels.</p>
-                                <ul class="list-inline">
-                                    <li>Date: Mar 2016</li>
-                                    <li>Language: C++</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- jQuery -->
+    <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Theme JavaScript -->
-    <script src="js/agency.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
 
-</body>
+  </body>
 
 </html>
