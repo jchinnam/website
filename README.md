@@ -1,1 +1,1 @@
-[www-personal.umich.edu/~jchinnam](www-personal.umich.edu/~jchinnam)
+[www-personal.umich.edu/~jchinnam](http://www-personal.umich.edu/~jchinnam/)
